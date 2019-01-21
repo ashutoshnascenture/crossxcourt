@@ -1,0 +1,53 @@
+<style>
+body{background:#efefef!important;font-family: 'Open Sans', sans-serif;}
+*{margin:0;padding:0;}
+a:hover{color: #999 !important;!important;text-decoration:none!important;}
+.wrapper-login{ margin:0; padding:0; color:#333; font-family: 'Open Sans', sans-serif; padding-top: 8%;text-align: center;}
+.logo-sec{position:relative;}
+.form-section label{font-weight:normal;}
+.logo-sec img {left: -47px;position: absolute;top: -52px;}
+.box-container {background: #fff none repeat scroll 0 0; margin: 28px auto; width: 40% !important;}
+.form-section.form-control{box-shadow:none; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset}
+.box-container h1 {color: #4dbd74;font-size: 22px;margin: 0;padding: 26px 22px 5px;text-transform: uppercase;}
+.form-section{padding:25px; overflow: hidden;}
+.form-section .form-control:focus{box-shadow:none;}
+.form-section .form-control{border-radius:0px!important;border:0px!important;box-shadow:none;background: #eef0ef none repeat scroll 0 0;height:40px;}
+.btn.login{background:#1ab76f;border:0px;  vertical-align: middle;width: 100%;padding:8px;text-transform:uppercase;font-size:16px;font-weight:bold;margin-bottom: 15px;margin-top: 15px;border-radius:0px;}
+.forgot{color:#1ab76f;padding-top: 10px;text-align: right;font-size:15px;float:right;}
+.checkbox{float: left;text-align: left; width: 45%;font-size:15px;color:#828282;}
+.btn.btn-success.login:hover{color:#333;}
+@media screen and (max-width: 768px){
+	.box-container{padding:20px; width: 92% !important;}
+	.form-container {width:92%;}
+	.form-container1{width:92%;}
+	.section-labels{text-align:left;}
+}
+
+@media screen and (max-width: 640px){
+	
+	
+}
+
+@media screen and (max-width: 480px){
+	label {display: inline-block;
+    font-size: 13px;}
+	.forgot {font-size: 12px;padding-top: 10px;text-align: right;}
+	.btn-link {color: #c32500 !important;float: left;font-size: 12px;padding-top: 9px;
+    text-align: left;}
+	.btn.btn-success.login-btn2 {
+    width: 100% !important;}
+	.login-btn {border-radius: 4px;display: block;  float: left;margin: 0 !important;padding: 7px !important;width: 56% !important;}
+	.form-sec .form-control {  background: #fff none repeat scroll 0 0 !important;border-radius: 0;height: 42px;}
+	.form-group.section-labels{ margin-bottom: 10px;}
+	
+	
+}
+ul li{list-style:none}
+.forgot {
+    color: #1ab76f;
+    float: right;
+    font-size: 15px;
+    padding-top: 9px;
+    text-align: right;
+}
+</style>

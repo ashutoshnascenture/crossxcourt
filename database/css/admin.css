@@ -1,0 +1,114 @@
+/*admin css strtas here*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);*/
+*{margin:0;padding:0;}
+a:hover{color: #333 !important;text-decoration:none!important;}
+body{background:#efefef!important; margin:0; padding:0; color:#333; font-family: 'Open Sans', sans-serif;}
+
+.margin-top-bottom-5{ margin-top: 5%; margin-bottom: 5%;}
+.margin-top-bottom-8{margin-top: 8%; margin-bottom: 8%;}}
+.margin-left-right-2{ margin-left: 2%; margin-right: 2%;}
+.padding-top-bottom-5 { padding-top: 5%; padding-bottom: 5%;}
+.padding-top-bottom-2{padding-top:2%;padding-bottom:2%}
+.padding-left-right-2 { padding-left: 2%; padding-right: 2%;}
+.margin-top-5{margin-top: 5%;}
+.margin-bottom-5{margin-bottom: 5%;}
+.padding-top-5{padding-top: 5%;}
+.padding-bottom-5{padding-bottom: 5%;}
+.margin-top-2{margin-top: 2%;}
+.margin-bottom-2{margin-bottom: 2%;}
+.padding-top-2{padding-top: 2%;}
+.padding-bottom-2{padding-bottom: 2%;}
+.padding-all{padding:3%}
+
+.forms-outer-container.margin-top-bottom-5 {
+    text-align: center;
+}
+.forms-outer-container h3{margin:0px;text-transform:uppercase;}
+.logo-sec{position:relative;}
+.form-section label{font-weight:normal;}
+.logo-sec img {left: -47px;position: absolute;top: -52px;}
+.form-control{box-shadow:none; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset}
+.form-section .form-control:focus{box-shadow:none;}
+.form-section .form-control{border-radius:0px!important;border:0px!important;box-shadow:none;background: #eef0ef none repeat scroll 0 0;height:40px;}
+.btn.login{background:#1ab76f;border:0px;  vertical-align: middle;width: 100%;padding:8px;text-transform:uppercase;font-size:18px;font-weight:700;margin-bottom: 15px;margin-top: 15px;}
+.checkbox {float: left;text-align: left; width: 45%;font-size:15px;color:#828282;}
+.btn.btn-success.login:hover{color:#333;}
+thead.heading{ background: #f7f7f7 none repeat scroll 0 0;}
+/* admin css starts here */
+.inner-content form{padding:10px;}
+.browse {margin-bottom: 18px;}
+.browse .form-control {height: 25px !important; padding: 6px 5px 30px;}
+.delete-image{margin-top:10px;}
+.heading tr th{font-weight:bold;}
+.my-btn.btn-primary,.my-btn.btn-success ,.my-btn.btn-warning ,.my-btn.btn-info ,.my-btn.btn-danger,.my-btn.btn-default{border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;margin-right: 5px;padding:2px 8px;font-size:12px;text-shadow:none;}
+.btn.my-btn.btn-default.booking{background:#c3b7b2;text-shadow:none;color:#fff;}
+/* media quiries start here */
+@media screen and (max-width: 768px){
+	
+	.section-labels{text-align:left;}
+}
+
+@media screen and (max-width: 640px){
+	
+	
+}
+
+@media screen and (max-width: 480px){
+	
+	.btn.btn-success.login-btn2 {
+    width: 100% !important;}
+	.login-btn {border-radius: 4px;display: block;  float: left;margin: 0 !important;padding: 7px !important;width: 56% !important;}
+	.form-sec .form-control {  background: #fff none repeat scroll 0 0 !important;border-radius: 0;height: 42px;}
+	.form-group.section-labels{ margin-bottom: 10px;}
+	.main-header .sidebar-toggle {font-size: 24px!important;padding: 6px 20px;}
+	
+	
+}
+ul li{list-style:none}
+.forgot {
+    color: #1ab76f;
+    float: right;
+    font-size: 15px;
+    padding-top: 9px;
+    text-align: right;
+}
+/*Internal pages css*/
+
+
+a{-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease;}
+.inner-content{padding: 15px; background-color: #fff;}
+.content-header h2{ font-size: 22px; font-weight: normal; margin: 5px 0;  color: #2a3f54;display: inline-block;}
+.product-create-table{margin:0 0 0 0px; }
+.product-create-table th{ padding: 12px !important; font-size: 15px; color: #383838; font-weight: 500; text-transform: capitalize; }
+.product-create-table tbody td{vertical-align: middle !important; color:#636363; font-size: 14px;}
+.my-btn{background-color: #2ba9c5; color: #fff; border-radius: 50px; padding: 2px 10px 2px 10px; font-size: 13px; margin: 0 10px 0px 0;}
+.edit-btn{background-color:#2ba9c5;}
+.btn-delete{background-color:#fb2f2f;}
+.form-layout{width:100%; padding: 0px; list-style: none; }
+.form-layout li{ float: left; width: 49%; margin: 0px 20px 20px 0px;}
+.form-layout li:nth-child(even){ margin-right:0px !important;}
+.form-layout li label{width:100%; font-size: 15px; color: #505050; font-weight: normal;}
+.form-layout li input, select{width:100%; border: 1px solid #cecece; padding: 10px; border-radius: 2px;}
+.form-layout .member-ship{width:100%;}
+.form-layout .member-ship label{display: inline;}
+.form-layout .member-ship input{display: inline; width: auto; margin: 13px 10px 0 3px;}
+.form-layout .btn-li{margin: 0px; width: 100%;}
+.form-layout .btn-li input{width: 100px; font-size: 15px;}
+.title-form{font-size: 17px; text-transform: uppercase; margin: 0px 0 20px 0;}
+.form-layout .width-100{width:100%;}
+.forms-outer-container .panel-default > .panel-heading {
+background-color: #1ab76f;color:#fff;}
+/*admin css ends here*/
+.icon { font-size:80px; }
+.dashboard-icon li { margin:50px }
+fieldset.scheduler-border {border: 1px groove #ddd !important;padding: 0 1.4em 1.4em 1.4em !important;margin: 0 0 1.5em 0 !important;-webkit-box-shadow:  0px 0px 0px 0px #000;box-shadow:  0px 0px 0px 0px #000;}
+.alert-danger{color:#CE2C1D!important;}
+legend.scheduler-border {font-size: 1.2em !important;font-weight: bold !important;text-align: left !important;width:auto;padding:0 10px;border-bottom:none;}
+.required .control-label:after {content: "*";color: red;font-size: inherit;font-weight: 800;}
+.notifications { display: inline-block;display: inline-block;background-color: #d54e21;
+color: #fff;font-size: 12px;line-height: 17px;font-weight: 600;-webkit-border-radius: 10px;
+border-radius: 10px;z-index: 26;width: 20px;text-align: center;height: 20px;border-radius: 100%;
+padding: 2px 1px;}
+.modal-dialog {z-index:9999;}
+.client-chat{background-color:#c6f3c6 !important;}
+.admin-chat{background-color:#f3ccd0 !important;}

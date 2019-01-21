@@ -1,0 +1,22 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=ZpjkK7GSWehhhgpGp4WN4cEZ4aaWcwnf
+
+DB_HOST=localhost
+DB_DATABASE=dieztenn_crossxcourt
+DB_USERNAME=dieztenn_cross
+DB_PASSWORD=^S1F0n5x^(U6
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+MAIL_DRIVER=mail
+MAIL_HOST=mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+
+ 
+Stripe_Api_key = sk_live_MYMlPoi2OO3fFyni4Gt5gxMd
+Stripe_publishable_key = pk_live_WSCvQI9c3FfMTO3cFim0uFb9
